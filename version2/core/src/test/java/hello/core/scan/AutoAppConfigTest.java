@@ -2,8 +2,10 @@ package hello.core.scan;
 
 import hello.core.AutoAppConfig;
 import hello.core.member.MemberService;
+import hello.core.order.Order;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.mockito.internal.matchers.Or;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import static org.assertj.core.api.Assertions.*;
